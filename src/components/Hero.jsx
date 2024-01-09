@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="upperCase header">
           Modern <br></br> Art Gallery
         </h1>
-        <img className="heroImage" src={HeroImage} />
+        <img className="heroImage" src={HeroImage} alt="people at museum" />
 
         <div className="heroDescription">
           <p>
@@ -22,7 +22,7 @@ const Hero = () => {
               <div className="location">Our location</div>
             </div>
             <div className="arrowBox">
-              <img className="arrow" src={RightArrow} />
+              <img className="arrow" src={RightArrow} alt="arrow"/>
             </div>
           </button>
         </div>

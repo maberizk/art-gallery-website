@@ -24,6 +24,11 @@ h1 {
   line-height: 88px;
 }
 
+h2 {
+  font-size: 60px;
+  line-height: 50px;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -48,6 +53,7 @@ h1 {
 
 .hero {
   display: flex;
+  margin-bottom: 180px;
 }
 
 .header {
@@ -111,4 +117,55 @@ h1 {
 
 .button:hover > .arrowBox {
   background-color: #151515;
+}
+
+.gridOne {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0 165px 30px 165px;
+}
+
+.gridTwo {
+  display: flex;
+  justify-content: center;
+}
+
+.gridOneText {
+  width: 350px;
+}
+
+.mediumBody {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 32px;
+}
+
+.gridTwoText {
+  width: 350px;
+  height: 248px;
+  background-color: #151515;
+  padding: 64px 48px;
+  margin-top: 32px;
+}
+
+.gridTwoText > p,
+h2 {
+  color: white;
+}
+
+.gridTwoText > p {
+  margin-top: 32px;
+}
+
+.gridTwoRight {
+  margin-left: 30px;
+}
+
+.lineHeight {
+  line-height: 60px;
+}
+
+#black {
+  color: #151515;
 }
