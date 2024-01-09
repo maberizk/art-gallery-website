@@ -129,6 +129,7 @@ h2 {
 .gridTwo {
   display: flex;
   justify-content: center;
+  margin-bottom: 180px;
 }
 
 .gridOneText {
@@ -168,4 +169,35 @@ h2 {
 
 #black {
   color: #151515;
+}
+
+.footer {
+  height: 244px;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 165px;
+  padding-left: 165px;
+}
+
+.logoFooter {
+  color: white;
+  font-size: 32px;
+  width: 160px;
+  line-height: 32px;
+}
+
+.footerText {
+  color: white;
+  width: 430px;
+}
+
+.icons > img {
+  padding-right: 16px;
+}
+
+.smallBody {
+  font-size: 18px;
+  line-height: 28px;
 }
