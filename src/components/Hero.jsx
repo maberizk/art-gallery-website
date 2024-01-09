@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "/assets/desktop/image-hero.jpg";
+import RightArrow from "/assets/icon-arrow-right.svg";
 
 const Hero = () => {
   return (
@@ -16,7 +17,14 @@ const Hero = () => {
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <button>Our location</button>
+          <button className="button upperCase buttonContainer">
+            <div className="locationContainer">
+              <div className="location">Our location</div>
+            </div>
+            <div className="arrowBox">
+              <img className="arrow" src={RightArrow} />
+            </div>
+          </button>
         </div>
       </div>
     </>
