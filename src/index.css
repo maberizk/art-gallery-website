@@ -1,5 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
 
 * {
   font-family: "Big Shoulders Display", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+}
+.upperCase {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 88px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* adjust this value as needed */
+  height: 800px;
+  background: #151515;
+  z-index: -1;
+}
+
+.heroDescription {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: relative;
+  right: 3%;
+  padding-top: 13%;
+}
+
+.hero {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.header {
+  position: relative;
+  left: 11%;
+  padding-top: 13%;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.heroImage {
+  height: 800px;
+  width: auto;
 }
