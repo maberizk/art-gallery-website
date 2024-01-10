@@ -54,6 +54,7 @@ h2 {
 .hero {
   display: flex;
   margin-bottom: 180px;
+  justify-content: center;
 }
 
 .header {
@@ -122,7 +123,7 @@ h2 {
 .gridOne {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 165px 30px 165px;
 }
 
@@ -134,6 +135,7 @@ h2 {
 
 .gridOneText {
   width: 350px;
+  padding-right: 125px;
 }
 
 .mediumBody {
@@ -175,10 +177,17 @@ h2 {
   height: 244px;
   background-color: #151515;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-right: 165px;
-  padding-left: 165px;
+  /* padding-right: 165px;
+  padding-left: 165px; */
+}
+
+.footerTextContainer {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  /* width: 100%; */
 }
 
 .logoFooter {
@@ -200,4 +209,13 @@ h2 {
 .smallBody {
   font-size: 18px;
   line-height: 28px;
+}
+
+@media screen and (max-width: 760px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 375px) {
 }

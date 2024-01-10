@@ -7,13 +7,15 @@ const Footers = () => {
   return (
     <>
       <div className="footer">
-        <h1 className="upperCase logoFooter">
-          Modern <br></br> Art Gallery
-        </h1>
-        <p className="footerText smallBody">
-          The Modern Art Gallery is free to all visitors and open seven days a
-          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-        </p>
+        <div className="footerTextContainer">
+          <h1 className="upperCase logoFooter">
+            Modern <br></br> Art Gallery
+          </h1>
+          <p className="footerText smallBody">
+            The Modern Art Gallery is free to all visitors and open seven days a
+            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+        </div>
         <div className="icons">
           <img src={FacebookIcon} alt="facebook icon" />
           <img src={InstagramIcon} alt="instagram icon" />
