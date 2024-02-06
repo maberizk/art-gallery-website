@@ -34,7 +34,7 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%; /* adjust this value as needed */
+  width: 50%;
   height: 800px;
   background: #151515;
   z-index: -1;
@@ -206,9 +206,17 @@ h2 {
   padding-right: 16px;
 }
 
+.icons > img:hover {
+  color: #d5966c;
+}
+
 .smallBody {
   font-size: 18px;
   line-height: 28px;
+}
+
+#map {
+  height: 480px;
 }
 
 @media screen and (max-width: 760px) {
