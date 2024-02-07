@@ -18,7 +18,7 @@ const Hero = () => {
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <Link to={`/location`}>
+          <Link to={`/location`} className="locationText">
             <button className="button upperCase buttonContainer">
               <div className="locationContainer">
                 <div className="location">Our location</div>

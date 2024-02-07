@@ -91,6 +91,10 @@ h2 {
   text-align: center;
 }
 
+.locationText {
+  text-decoration: none;
+}
+
 .locationContainer {
   display: flex;
   justify-content: center;
