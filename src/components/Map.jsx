@@ -1,11 +1,11 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css"; // Ensure you import Leaflet's CSS
+import "leaflet/dist/leaflet.css";
 
 const Map = () => {
   return (
     <MapContainer
-      center={[51.505, -0.09]}
+      center={[41.4824, -71.31039]}
       zoom={13}
       style={{ height: "400px", width: "100%" }}
     >

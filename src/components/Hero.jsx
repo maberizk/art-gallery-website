@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "/assets/desktop/image-hero.jpg";
 import RightArrow from "/assets/icon-arrow-right.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,14 +18,16 @@ const Hero = () => {
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <button className="button upperCase buttonContainer">
-            <div className="locationContainer">
-              <div className="location">Our location</div>
-            </div>
-            <div className="arrowBox">
-              <img className="arrow" src={RightArrow} alt="arrow"/>
-            </div>
-          </button>
+          <Link to={`/location`}>
+            <button className="button upperCase buttonContainer">
+              <div className="locationContainer">
+                <div className="location">Our location</div>
+              </div>
+              <div className="arrowBox">
+                <img className="arrow" src={RightArrow} alt="arrow" />
+              </div>
+            </button>
+          </Link>
         </div>
       </div>
     </>
