@@ -236,9 +236,9 @@ h2 {
 .locationPageText {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around;
-  align-items: center; */
-  margin: 5% 10%;
+  padding: 5% 10%;
+  background: black;
+  color: white;
 }
 
 .locationPageHeader {
@@ -247,6 +247,9 @@ h2 {
 
 .locationPageDetails {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .orange {
@@ -261,9 +264,13 @@ h2 {
   color: black;
 }
 
-.logoFooterLoc > img {
-  color: black;
+.padding {
+  padding: 5% 0;
 }
+
+/* .logoFooterLoc > img {
+  color: black;
+} */
 
 @media screen and (max-width: 760px) {
 }

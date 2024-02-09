@@ -8,18 +8,22 @@ const Location = () => {
       <Map />
       <div className="locationPageText">
         <div className="locationPageHeader">
-          <h3 className="orange">Our Location</h3>
+          <h3>
+            Our <br></br>Location
+          </h3>
         </div>
         <div className="locationPageDetails">
           <div>
-            <h4 className="orange">99 King Street</h4>
+            <div className="padding">
+              <h4 className="orange">99 King Street</h4>
+            </div>
             <div>
               <p>Newport</p>
               <p>RI 02840</p>
               <p>United States of America</p>
             </div>
           </div>
-          <div>
+          <div className="padding">
             <p>
               Our newly opened gallery is located near the Edward King House on
               99 King Street, the Modern Art Gallery is free to all visitors and
