@@ -29,6 +29,16 @@ h2 {
   line-height: 50px;
 }
 
+h3 {
+  font-size: 70px;
+  line-height: 70px;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -221,6 +231,38 @@ h2 {
 
 #map {
   height: 480px;
+}
+
+.locationPageText {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around;
+  align-items: center; */
+  margin: 5% 10%;
+}
+
+.locationPageHeader {
+  flex: 1;
+}
+
+.locationPageDetails {
+  flex: 1;
+}
+
+.orange {
+  color: #d5966c;
+}
+
+.footerLocationsPage {
+  background-color: #d5966c;
+}
+
+.logoFooterLoc {
+  color: black;
+}
+
+.logoFooterLoc > img {
+  color: black;
 }
 
 @media screen and (max-width: 760px) {
